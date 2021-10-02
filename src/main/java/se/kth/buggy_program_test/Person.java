@@ -37,8 +37,13 @@ public class Person {
 		this.birthYear = birthYear;
 	}
 	
-	public int computeAge() {
+	public int wrongComputeAge() {
 		int age = 2021 + birthYear;
+		return age;
+	}
+	
+	public int CorrectComputeAge() {
+		int age = 2021 - birthYear;
 		return age;
 	}
 	

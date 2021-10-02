@@ -19,7 +19,7 @@ public class AppTest
     @Test
     public void computeAgeTest() {
     	Person p1 = new Person("Davide", "Ginelli", 1990);
-    	assertEquals(31, p1.computeAge());
+    	assertEquals(31, p1.wrongComputeAge());
     }
     
 }
