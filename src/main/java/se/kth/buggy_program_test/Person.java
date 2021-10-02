@@ -38,8 +38,9 @@ public class Person {
 	}
 	
 	public int wrongComputeAge() {
-		int age = 2021 + birthYear;
-		return age;
+		int wrongAge = 2021 + birthYear;
+		int correctAge = 2021 - birthYear;
+		return wrongAge;
 	}
 	
 	public int CorrectComputeAge() {
