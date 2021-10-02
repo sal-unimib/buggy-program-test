@@ -6,6 +6,6 @@ package se.kth.buggy_program_test;
  */
 public class App {
     public static void main( String[] args ) {
-        System.out.println( "This is an example of buggy program!" );
+        System.out.println( "This is an example of buggy program." );
     }
 }
